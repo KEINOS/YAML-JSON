@@ -1,19 +1,20 @@
+---
 teams:
-  - name:        アクダマン
+  - name: アクダマン
     members:
-      - name:    Mujo
-        age:     24
-        leader:  yes
-      - name:    Tobokkee
-        age:     25
-      - name:    Donjuro
-        age:     30
-  - name:        ドロンボー
+      - name: Mujo
+        age: 24
+        leader: "yes"
+      - name: Tobokkee
+        age: 25
+      - name: Donjuro
+        age: 30
+  - name: ドロンボー
     members:
-      - name:    Doronjo
-        age:     24
-        leader:  yes
-      - name:    Boyakkie
-        age:     25
-      - name:    Tonzuraa
-        age:     30
+      - name: Doronjo
+        age: 24
+        leader: "yes"
+      - name: Boyakkie
+        age: 25
+      - name: Tonzuraa
+        age: 30

@@ -4,7 +4,7 @@ FROM golang:alpine AS build-env
 
 RUN apk add --no-cache git && \
     go get github.com/ghodss/yaml && \
-    go get gopkg.in/yaml.v2
+    go get gopkg.in/yaml.v3
 
 ADD ./src /src
 WORKDIR /src

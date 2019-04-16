@@ -4,10 +4,10 @@ package main
 //   https://qiita.com/arc279/items/0c6fd58e4c4dc52770b5 @ Qiita
 // Get package:
 //   `$ go get github.com/ghodss/yaml`
-//   https://gopkg.in/yaml.v2
-//   `$ go get gopkg.in/yaml.v2`
+//   https://gopkg.in/yaml.v3
+//   `$ go get gopkg.in/yaml.v3`
 // Build app:
-//   `$ go build yaml2json.go`
+//   `$ go build yaml-json.go`
 
 import (
     "flag"
@@ -17,7 +17,7 @@ import (
 
     "encoding/json"
     "github.com/ghodss/yaml"
-    yaml2 "gopkg.in/yaml.v2"
+    yaml3 "gopkg.in/yaml.v3"
 )
 
 func main() {
@@ -41,7 +41,7 @@ func main() {
     }
 
     if yamlFlag {
-        d, err := yaml2.Marshal(&m)
+        d, err := yaml3.Marshal(&m)
         if err != nil {
             panic(err)
         }
